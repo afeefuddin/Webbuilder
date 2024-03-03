@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+textarea:focus, input:focus{
+  outline: none;
+}
+:root{
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
