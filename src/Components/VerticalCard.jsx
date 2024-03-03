@@ -33,7 +33,7 @@ function VerticalCard({data}) {
                 ({data.discount}% Off)
             </div>
         </div>
-        <Button color='bg-blue-500' text='text-white mt-4  p-4 '>View Deal</Button>
+        <Button color='bg-blue-500 ' text='text-white mt-4  p-4 hover:bg-blue-600 '>View Deal</Button>
     </div>
   )
 }

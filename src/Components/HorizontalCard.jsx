@@ -91,7 +91,7 @@ function HorizontalCard({ data, index }) {
       </div>
       <div className="flex flex-col justify-between items-center min-w-48">
         <Rating rating={data.rating} />
-        <Button color="bg-blue-500" text="text-white" style="rounded-xl w-full  p-4 ">
+        <Button color="bg-blue-500" text="text-white" style="rounded-xl w-full  p-4 hover:bg-blue-600 ">
           View
         </Button>
       </div>
